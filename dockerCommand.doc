@@ -1,0 +1,28 @@
+EXPOSE  =>   Describe which ports your application is listening on.
+FROM ==>     Create a new build stage from a base image.
+WORKDIR ==>  Change working directory.
+RUN ==>      Execute build commands.
+
+
+docker image ls ==> to veiw all image that was build from the docker file
+docker build -t (name of you image you want to build ) . ==> build image with specific name
+docker run --name nameOfContainer specificImageName ==> to run specific image to build the specific container
+
+
+docker ps ==> to view all contaniner was runing 
+docker rm name-of-containeer  -f ==> to remove your specific container
+
+docker stop name-of-container ==> if you want to stop the name of your container
+
+
+
+
+
+
+
+
+
+
+
+
+
